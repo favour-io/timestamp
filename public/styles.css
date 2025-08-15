@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+  max-width: 720px;
+  margin: 3rem auto;
+  line-height: 1.6;
+}
+
+code {
+  background: #f3f3f3;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+pre {
+  background: #f3f3f3;
+  padding: 10px;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+a {
+  color: #007bff;
+  text-decoration: none;
+}

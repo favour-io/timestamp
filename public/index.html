@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>⏱️ Timestamp Microservice</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h1>⏱️ Timestamp Microservice</h1>
+  <p>
+    This is a simple timestamp API compatible with the 
+    <a href="https://timestamp-microservice.freecodecamp.rocks/">freeCodeCamp project</a>.
+  </p>
+
+  <h2>Endpoints</h2>
+  <ul>
+    <li><code>/api</code> — Current time</li>
+    <li><code>/api/&lt;date&gt;</code> — A date string or Unix timestamp</li>
+  </ul>
+
+  <h2>Examples</h2>
+  <pre>
+GET /api                     → {"unix": 1697040000000, "utc": "Mon, 11 Oct 2023 00:00:00 GMT"}
+GET /api/2015-12-25          → {"unix": 1451001600000, "utc": "Fri, 25 Dec 2015 00:00:00 GMT"}
+GET /api/1451001600000       → {"unix": 1451001600000, "utc": "Fri, 25 Dec 2015 00:00:00 GMT"}
+GET /api/invalid-date        → {"error": "Invalid Date"}
+  </pre>
+</body>
+</html>
