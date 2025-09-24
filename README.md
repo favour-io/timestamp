@@ -1,7 +1,7 @@
 # ⏱️ Timestamp Microservice
 
 A simple Node.js + Express API that returns Unix and UTC timestamps.  
-Built as part of the [freeCodeCamp Timestamp Microservice project](https://timestamp-microservice.freecodecamp.rocks/).
+Built as part of the [freeCodeCamp Timestamp Microservice project]
 
 ## 📦 Installation
 
